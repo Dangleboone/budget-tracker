@@ -39,7 +39,7 @@ app.use(require("./routes/api.js"));
 
 /* ---- Server set up ---- */
 //Set PORT value.
-const PORT = process.env.PORT || 3550;
+const PORT = process.env.PORT || 3000;
 
 //Establish connection to the app.
 app.listen(PORT, () => {
